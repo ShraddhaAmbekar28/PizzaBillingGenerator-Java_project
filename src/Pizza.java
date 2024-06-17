@@ -1,12 +1,12 @@
 public class Pizza {
-    private int price;
-    private boolean veg;
+    public int price;
+    public boolean veg;
 
-    private int extraCheesePrice = 100;
-    private int extraToppingsPrice = 150;
-    private int backPackPrice = 20;
+    public int extraCheesePrice = 100;
+    public int extraToppingsPrice = 150;
+    public int backPackPrice = 20;
 
-    private int basePizzaPrice;
+    public int basePizzaPrice;
 
     private boolean isExtraCheeseAdded = false;
     private boolean isExtraToppingAdded = false;
@@ -30,7 +30,7 @@ public class Pizza {
 
     public void addExtraToppings() {
         isExtraToppingAdded = true;
-        // System.out.println("Extra topping added");
+         System.out.println("Extra topping added");
         this.price += extraToppingsPrice;
     }
 
